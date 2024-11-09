@@ -80,7 +80,7 @@ def ElevenlabsTTS(text: str, voice_name: str = "Brian", filename: str = "STREAM_
                     audio_data = response.content
                     return part_number, audio_data
             except requests.RequestException as e:
-                # print(f"Error occurred: {e}. Retrying...\n")
+                print(f"Error occurred: {e}. Retrying...\n")
                 time.sleep(1)  # Short delay before retrying
 
     def save_audio_file(part_number, audio_data):
