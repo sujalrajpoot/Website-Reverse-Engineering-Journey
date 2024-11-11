@@ -14,8 +14,7 @@ This project is an ongoing log of my journey in reverse engineering websites. My
 
 Throughout this journey, I’ll be using a range of skills and tools, including but not limited to:
 
-- **Languages**: Python, JavaScript
-- **Frameworks**: Flask, Node.js
+- **Languages**: Python
 - **Tools**: 
   - **HTTP Clients**: `requests` library in Python, Postman
   - **Proxy Tools**: Burp Suite, Fiddler
